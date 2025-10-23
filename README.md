@@ -1,13 +1,7 @@
-
-
-
-Here’s a polished **README.md** you can adapt:
-
-
 # 📱 BillSplit Frontend (React Native + Expo)
 
 This is the **mobile frontend** for the BillSplit application — a group expense sharing app.  
-The backend is built with **Spring Boot** and lives in a separate repository: [BillSplit Backend](https://github.com/your-org/billsplit-backend).
+The backend is built with **Spring Boot** and lives in a separate repository: [BillSplit Backend](https://github.com/soham04/billsplit).
 
 ---
 
@@ -76,7 +70,7 @@ global.css # Tailwind styles
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-org/billsplit-frontend.git
+git clone https://github.com/soham04/billsplit-frontend.git
 cd billsplit-frontend
 ```
 
@@ -144,7 +138,7 @@ npm run android
 
   
 
-This project requires the [BillSplit Backend](https://github.com/your-org/billsplit-backend) running locally or remotely.
+This project requires the [BillSplit Backend](https://github.com/soham04/billsplit) running locally or remotely.
 
   
 
@@ -206,17 +200,3 @@ For frontend testing:
     
 5.  Create a Pull Request
     
-
-----------
-
-## **📄 License**
-
-  
-
-MIT License © 2025 Your Name / Your Org
-
-```
----
-
-👉 Do you want me to also **draft a README for the backend Spring Boot repo** so that both repos look aligned and professional?
-```
