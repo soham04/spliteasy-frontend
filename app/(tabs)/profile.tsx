@@ -1,4 +1,3 @@
-import { useAuthStore } from '@/hooks/Auth';
 import { useRouter } from 'expo-router';
 import * as SecureStore from 'expo-secure-store';
 import {
@@ -18,6 +17,7 @@ import {
 import React, { useEffect, useState } from 'react';
 import { Alert, Image, SafeAreaView, ScrollView, Switch, Text, TouchableOpacity, View } from 'react-native';
 import Config from "react-native-config";
+import { useAuthStore } from './../../hooks/Auth';
 
 type UserProfile = {
     id: number;

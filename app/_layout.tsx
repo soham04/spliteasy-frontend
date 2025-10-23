@@ -1,9 +1,9 @@
-import "@/global.css";
 import { Stack, useRouter } from "expo-router";
 import * as SecureStore from "expo-secure-store";
 import { useEffect, useState } from "react";
 import { ActivityIndicator, Text, View } from "react-native";
 import Config from "react-native-config";
+import "./../global.css";
 
 /**
  * RootLayout
@@ -107,7 +107,6 @@ export default function RootLayout() {
             <Stack.Screen name="profile-completion" />
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="group-detail" />
-            <Stack.Screen name="expense-detail" />
             <Stack.Screen name="create-group" />
         </Stack>
     );

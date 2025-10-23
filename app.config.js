@@ -50,8 +50,17 @@ export default {
       typedRoutes: true,
     },
     extra: {
+      eas: {
+        "projectId": "c60e5f51-e223-4a93-8011-746100aa02e7"
+      },
       googleWebClientId: "437466271417-0onhgkk95piohlcdcsfnfvbhsmm1je4h.apps.googleusercontent.com",
       googleIosClientId: "437466271417-0tfdbds6c8delaecvf38k55b0of2vgd2.apps.googleusercontent.com",
     },
+    owner: "soham-shinde",
+    slug: "split-easy",
+    updates: {
+      "url": "https://u.expo.dev/c60e5f51-e223-4a93-8011-746100aa02e7"
+    },
+    runtimeVersion: "1.0.0",
   },
 };
