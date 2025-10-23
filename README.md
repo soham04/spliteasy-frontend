@@ -4,6 +4,21 @@ This is the **mobile frontend** for the BillSplit application — a group expens
 The backend is built with **Spring Boot** and lives in a separate repository: [BillSplit Backend](https://github.com/soham04/billsplit).
 
 ---
+## 📸 Screens
+
+- **Welcome/Login** → Authenticate via Google or email/password  
+- **Add Expense** → Add group/individual expenses, split equally or by shares  
+- **Activity Feed** → View all transactions and settlements  
+- **Groups** → Manage groups, view balances, and settle up  
+- **Profile** → Manage account, notifications, and logout  
+
+### 🖼️ App Screenshots
+
+| Login | Add Expense | Activity Feed | Groups |
+|:--:|:--:|:--:|:--:|
+| <img src="./screenshots/screenshot_1.png" width="250"/> | <img src="./screenshots/screenshot_2.jpeg" width="250"/> | <img src="./screenshots/screenshot_3.jpeg" width="250"/> | <img src="./screenshots/screenshot_4.jpeg" width="250"/> |
+
+---
 
 ## 🚀 Features
 
